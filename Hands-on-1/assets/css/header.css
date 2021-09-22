@@ -1,19 +1,21 @@
 header{
     width: 1024px;
-    margin: 0 auto; /* Centraliza na tela*/
+    margin: 30px auto; /* Centraliza na tela*/
     display: flex;
     flex-direction: row;
     justify-content: space-between; /*Divide em espaços iguais dentro da box  */
-    align-items: center; /*alinhar os elemtentos filhos  */
+    align-items: center; /*alinhar os elemetentos pro centro  */
 }
 
 header nav ul{
     display: flex;
     flex-direction: row;
     list-style: none; /*Um atributo pra tirar as bolinhas da ul */
-
+    align-items: center;
 }
 
-header nav ul li{
-    padding: 0 15px; /*não quero padding em cima só quero nas partes do lado */
+header nav ul li a{
+    margin: 0 15px; /*não quero padding em cima só quero nas partes do lado */
+    color: #3399cc;
 }
+
