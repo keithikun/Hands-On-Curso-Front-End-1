@@ -4,6 +4,7 @@
 /* Components */ 
 @import "header.css";
 @import "buttons.css";
+@import "main.css";
 
 /* Reset Css */
 *{
@@ -12,6 +13,7 @@
     border: 0;
     font-size: 100%;
     font: inherit;
+    font-weight: 300;
     font-family: 'Source Sans Pro', sans-serif;
     vertical-align: baseline;
     text-decoration: none; /*todos os meus texxtos não  terão linha embaixo dos links e etc... */ 
