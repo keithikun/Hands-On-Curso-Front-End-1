@@ -1,0 +1,19 @@
+header{
+    width: 1024px;
+    margin: 0 auto; /* Centraliza na tela*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*Divide em espaços iguais dentro da box  */
+    align-items: center; /*alinhar os elemtentos filhos  */
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none; /*Um atributo pra tirar as bolinhas da ul */
+
+}
+
+header nav ul li{
+    padding: 0 15px; /*não quero padding em cima só quero nas partes do lado */
+}
