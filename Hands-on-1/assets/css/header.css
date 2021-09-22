@@ -1,8 +1,4 @@
-header{
-    width: 1024px;
-    margin: 30px auto; /* Centraliza na tela*/
-    display: flex;
-    flex-direction: row;
+header section{
     justify-content: space-between; /*Divide em espaços iguais dentro da box  */
     align-items: center; /*alinhar os elemetentos pro centro  */
 }

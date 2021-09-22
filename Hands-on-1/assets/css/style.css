@@ -17,3 +17,14 @@
     text-decoration: none; /*todos os meus texxtos não  terão linha embaixo dos links e etc... */ 
 }
 
+.container{
+    width: 1024px;
+    margin: 30px auto; /* Centraliza na tela*/
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+} 
