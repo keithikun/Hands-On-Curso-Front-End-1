@@ -5,6 +5,8 @@
 @import "header.css";
 @import "buttons.css";
 @import "main.css";
+@import "footer.css";
+
 
 /* Reset Css */
 *{
@@ -17,6 +19,13 @@
     font-family: 'Source Sans Pro', sans-serif;
     vertical-align: baseline;
     text-decoration: none; /*todos os meus texxtos não  terão linha embaixo dos links e etc... */ 
+    list-style: none;
+}
+
+body{
+    background-image: url("../imagens/image/bolha\ background.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .container{
