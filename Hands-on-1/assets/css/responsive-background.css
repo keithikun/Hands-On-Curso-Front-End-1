@@ -1,5 +1,5 @@
 
-@media (max-width: 1900px) {
+@media (max-width: 2000px) {
     body{
         background-size: 880px;
     }
@@ -37,6 +37,6 @@
 
 @media (max-width: 1100px) {
     body{
-        background-position-x: -100px !important;
+        background-position-x: -100px;
     }
 }
